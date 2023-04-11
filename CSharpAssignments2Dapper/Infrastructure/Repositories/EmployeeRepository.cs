@@ -31,12 +31,20 @@ namespace Infrastructure.Repositories
 
         public IEnumerable<Employees> GetAll()
         {
-            throw new NotImplementedException();
+            using (IDbConnection conn = _dbContext.GetConnection())
+            {
+                // grab attributes from the given object and inject into the sql statement
+                return conn.Query<Employees>("Select Id, FirstName, LastName, Salary, DeptId From Employees");
+            }
         }
 
         public Employees GetById(int id)
         {
-            throw new NotImplementedException();
+            using (IDbConnection conn = _dbContext.GetConnection())
+            {
+                // grab attributes from the given object and inject into the sql statement
+                return conn.QuerySingleOrDefault<Employees>("Select Id, FirstName, LastName, Salary, DeptId From Employees where Id=@Id", new { Id = id });
+            }
         }
 
         public int Insert(Employees obj)
@@ -44,13 +52,17 @@ namespace Infrastructure.Repositories
             using (IDbConnection conn = _dbContext.GetConnection())
             {
                 // grab attributes from the given object and inject into the sql statement
-                return conn.Execute("Insert Into Employees Values(@DeptName, @Loc)", obj);
+                return conn.Execute("Insert Into Employees Values(@FirstName, @LastName, @Salary, @DeptId)", obj);
             }
         }
 
         public int Update(Employees obj)
         {
-            throw new NotImplementedException();
+            using (IDbConnection conn = _dbContext.GetConnection())
+            {
+                // grab attributes from the given object and inject into the sql statement
+                return conn.Execute("Update Employees set FirstName=@FirstName, LastName=@LastName, Salary=@Salary, DeptId=@DeptId where Id=@Id", obj);
+            }
         }
     }
 }
