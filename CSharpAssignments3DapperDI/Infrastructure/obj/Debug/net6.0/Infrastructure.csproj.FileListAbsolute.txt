@@ -1,0 +1,13 @@
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\bin\Debug\net6.0\ApplicationCore.dll
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\bin\Debug\net6.0\ApplicationCore.pdb
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll

@@ -36,3 +36,5 @@ E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\obj\Debug\net6.0\refint\
 E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\obj\Debug\net6.0\CSharpAssignments3DapperDI.pdb
 E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\obj\Debug\net6.0\CSharpAssignments3DapperDI.genruntimeconfig.cache
 E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\obj\Debug\net6.0\ref\CSharpAssignments3DapperDI.dll
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\bin\Debug\net6.0\Infrastructure\obj\Infrastructure.csproj.nuget.dgspec.json
+E:\VS Projects\CSAssignments\CSharpAssignments3DapperDI\bin\Debug\net6.0\Infrastructure\obj\project.assets.json
