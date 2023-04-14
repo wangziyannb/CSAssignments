@@ -1,0 +1,188 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model ApplicationCore.Entities.Employees
+<div class="text-center">
+    <h1 class="display-4">Welcome to Employees Modification Page</h1>
+
+    <div>
+        <p>Add an Employee</p>
+        @using (Html.BeginForm("AddEmployee", "Home", FormMethod.Post))
+        {
+            <table>
+                <tr>
+                    <td>
+                        Enter First Name of Employee:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.FirstName)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter Last Name of Employee:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.LastName)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter Salary:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.Salary)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter DeptId:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.DeptId)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit Form" /></td>
+                </tr>
+            </table>
+        }
+        <p>-------</p>
+        <p>Delete an Employees</p>
+        @using (Html.BeginForm("DeleteEmployeeById", "Home", FormMethod.Post))
+        {
+            <table>
+                <tr>
+                    <td>
+                        Enter id of Employee:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.Id)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit Form" /></td>
+                </tr>
+            </table>
+        }
+        <p>-------</p>
+        <p>Update a Employees</p>
+        @using (Html.BeginForm("UpdateEmployee", "Home", FormMethod.Post))
+        {
+            <table>
+                <tr>
+                    <td>
+                        Enter id of Employee:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.Id)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter new First Name:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.FirstName)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter new Last Name:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.LastName)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter new Salary:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.Salary)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter new DeptId:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.DeptId)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit Form" /></td>
+                </tr>
+            </table>
+        }
+        <p>-------</p>
+        <p>Get All Employees</p>
+        <div>
+            <div>
+                <button type="button" onclick="location.href='@Url.Action("GetAllEmployees", "Home")'" /> GET!
+            </div>
+
+
+            @{
+                if (ViewBag.Employees != null)
+                {
+                    <table>
+                        @{
+                            foreach (var e in ViewBag.Employees)
+                            {
+                                <tr>
+                                    @{
+                                        <td>@e.Id</td>
+                                        <td>@e.FirstName</td>
+                                        <td>@e.LastName</td>
+                                        <td>@e.Salary</td>
+                                        <td>@e.DeptId</td>
+                                    }
+
+                                </tr>
+                            }
+                        }
+                    </table>
+
+                }
+
+            }
+        </div>
+        <p>-------</p>
+        <p>Get a Employees by Id</p>
+        @using (Html.BeginForm("GetEmployeeById", "Home", FormMethod.Post))
+        {
+            <table>
+                <tr>
+                    <td>
+                        Enter id of Employee:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.Id)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit Form" /></td>
+                </tr>
+            </table>
+        }
+        @{
+            if (ViewBag.EmployeeById != null)
+            {
+                <table>
+                    <tr>
+
+                        @{
+                            <td>@ViewBag.EmployeeById.Id</td>
+                            <td>@ViewBag.EmployeeById.FirstName</td>
+                            <td>@ViewBag.EmployeeById.LastName</td>
+                            <td>@ViewBag.EmployeeById.Salary</td>
+                            <td>@ViewBag.EmployeeById.DeptId</td>
+                        }
+                    </tr>
+                </table>
+            }
+        }
+    </div>
+
+</div>

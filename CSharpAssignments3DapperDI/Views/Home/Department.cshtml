@@ -1,0 +1,152 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model ApplicationCore.Entities.Departments
+<div class="text-center">
+    <h1 class="display-4">Welcome to Department Modification Page</h1>
+
+    <div>
+        <p>Add a Department</p>
+        @using (Html.BeginForm("AddDepartment", "Home", FormMethod.Post))
+        {
+            <table>
+                <tr>
+                    <td>
+                        Enter name of Department:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.DeptName)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter name of Location:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.Location)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit Form" /></td>
+                </tr>
+            </table>
+        }
+        <p>-------</p>
+        <p>Delete a Department</p>
+        @using (Html.BeginForm("DeleteDepartmentById", "Home", FormMethod.Post))
+        {
+            <table>
+                <tr>
+                    <td>
+                        Enter id of Department:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.Id)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit Form" /></td>
+                </tr>
+            </table>
+        }
+        <p>-------</p>
+        <p>Update a Department</p>
+        @using (Html.BeginForm("UpdateDepartment", "Home", FormMethod.Post))
+        {
+            <table>
+                <tr>
+                    <td>
+                        Enter id of Department:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.Id)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter new name of Department:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.DeptName)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter new name of Location:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.Location)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit Form" /></td>
+                </tr>
+            </table>
+        }
+        <p>-------</p>
+        <p>Get All Departments</p>
+        <div>
+            <div>
+                <button type="button" onclick="location.href='@Url.Action("GetAllDepartments", "Home")'" /> GET!
+            </div>
+
+
+            @{
+                if (ViewBag.Departments != null)
+                {
+                    <table>
+                        @{
+                            foreach (var d in ViewBag.Departments)
+                            {
+                                <tr>
+                                    @{
+                                        <td>@d.Id</td>
+                                        <td>@d.DeptName</td>
+                                        <td>@d.Location</td>
+                                    }
+
+                                </tr>
+                            }
+                        }
+                    </table>
+
+                }
+
+            }
+        </div>
+        <p>-------</p>
+        <p>Get a Department by Id</p>
+        @using (Html.BeginForm("GetDepartmentById", "Home", FormMethod.Post))
+        {
+            <table>
+                <tr>
+                    <td>
+                        Enter id of Department:
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m=>m.Id)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit Form" /></td>
+                </tr>
+            </table>
+        }
+        @{
+            if (ViewBag.DepartmentById != null)
+            {
+                <table>
+                    <tr>
+
+                        @{
+                            <td>@ViewBag.DepartmentById.Id</td>
+                            <td>@ViewBag.DepartmentById.DeptName</td>
+                            <td>@ViewBag.DepartmentById.Location</td>
+                        }
+                    </tr>
+                </table>
+            }
+        }
+    </div>
+
+</div>

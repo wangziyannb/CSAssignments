@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CSharpAssignments3DapperDI.props" />
+</Project>
