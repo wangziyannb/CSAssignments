@@ -541,11 +541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VS Projects\\CSharpAssignments2Dapper\\DapperTutorial\\DapperTutorial.csproj",
+      "projectUniqueName": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\DapperTutorial\\DapperTutorial.csproj",
       "projectName": "DapperTutorial",
-      "projectPath": "E:\\VS Projects\\CSharpAssignments2Dapper\\DapperTutorial\\DapperTutorial.csproj",
+      "projectPath": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\DapperTutorial\\DapperTutorial.csproj",
       "packagesPath": "C:\\Users\\wangz\\.nuget\\packages\\",
-      "outputPath": "E:\\VS Projects\\CSharpAssignments2Dapper\\DapperTutorial\\obj\\",
+      "outputPath": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\DapperTutorial\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wangz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -562,8 +562,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\VS Projects\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "E:\\VS Projects\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj"
+            "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LAOYSenWzusDOBHSNgpj6lYAxRq4sYS8x/U3TGKFGhGtW/YMuX3RwzGvbbLRkvhzVsp0sh+jbYu8Jk2tNDFZOg==",
+  "dgSpecHash": "MbGyD6NffyoHQtG/gdyngfgXKFWpqDy+V0WUac7NvcKPJ4yrf0sIUwOOjPSLXE8q+Gx7OLHLScdwYqa9cHcL7g==",
   "success": true,
-  "projectFilePath": "E:\\VS Projects\\CSharpAssignments2Dapper\\DapperTutorial\\DapperTutorial.csproj",
+  "projectFilePath": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\DapperTutorial\\DapperTutorial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wangz\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\wangz\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

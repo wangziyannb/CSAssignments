@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS Projects\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj": {}
+    "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\VS Projects\\CSharpAssignments2Dapper\\ApplicationCore\\ApplicationCore.csproj": {
+    "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS Projects\\CSharpAssignments2Dapper\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "E:\\VS Projects\\CSharpAssignments2Dapper\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\wangz\\.nuget\\packages\\",
-        "outputPath": "E:\\VS Projects\\CSharpAssignments2Dapper\\ApplicationCore\\obj\\",
+        "outputPath": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wangz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "E:\\VS Projects\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS Projects\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\VS Projects\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\wangz\\.nuget\\packages\\",
-        "outputPath": "E:\\VS Projects\\CSharpAssignments2Dapper\\Infrastructure\\obj\\",
+        "outputPath": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wangz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\VS Projects\\CSharpAssignments2Dapper\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "E:\\VS Projects\\CSharpAssignments2Dapper\\ApplicationCore\\ApplicationCore.csproj"
+              "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VPu9wIKudE6zZOCxlNvrgkxRjToC7HnFPPhATmbWaCu8ZVOlXFqQPCpsTEe4N3VvzdfTO0qdRYbYA+aZT885Hw==",
+  "dgSpecHash": "mfNQc2ApIstazQd0ESPB0JRiU1KgzFA+0TOzG6H9sU2ZgXocvTbZ/jhy5eHi3jiXkMzNUcqENojct7wwCGXGjg==",
   "success": true,
-  "projectFilePath": "E:\\VS Projects\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "E:\\VS Projects\\CSAssignments\\CSharpAssignments2Dapper\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wangz\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\wangz\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
