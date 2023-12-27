@@ -155,23 +155,23 @@ namespace CSharpAssignment1.Assignment04_Generics
             myList.Remove(myList.Count - 1);
             myList.Debug();
             Console.WriteLine("Check if contains the removed value (4)");
-            Console.WriteLine(myList.Contains("4"));
-            Console.WriteLine("Check if contains a value that inside of it (2)");
-            Console.WriteLine(myList.Contains("2"));
-            Console.WriteLine("Clear the list");
-            myList.Clear();
-            myList.Debug();
-            Console.WriteLine("Insert 'a' to index 0");
-            myList.InsertAt("a", 0);
-            myList.Debug();
-            Console.WriteLine("Insert 'b' to index 0");
-            myList.InsertAt("b", 0);
-            myList.Debug();
-            Console.WriteLine("Delete value in index 0");
-            myList.DeleteAt(0);
-            myList.Debug();
-            Console.WriteLine("Retrive value in index 0");
-            Console.WriteLine(myList.Find(0));
+            //Console.WriteLine(myList.Contains("4"));
+            //Console.WriteLine("Check if contains a value that inside of it (2)");
+            //Console.WriteLine(myList.Contains("2"));
+            //Console.WriteLine("Clear the list");
+            //myList.Clear();
+            //myList.Debug();
+            //Console.WriteLine("Insert 'a' to index 0");
+            //myList.InsertAt("a", 0);
+            //myList.Debug();
+            //Console.WriteLine("Insert 'b' to index 0");
+            //myList.InsertAt("b", 0);
+            //myList.Debug();
+            //Console.WriteLine("Delete value in index 0");
+            //myList.DeleteAt(0);
+            //myList.Debug();
+            //Console.WriteLine("Retrive value in index 0");
+            //Console.WriteLine(myList.Find(0));
         }
     }
 }
